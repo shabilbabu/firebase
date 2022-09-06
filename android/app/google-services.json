@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "20703314802",
+    "project_id": "fininfocom-assignment",
+    "storage_bucket": "fininfocom-assignment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20703314802:android:466c1b2bd15cd5f2b993eb",
+        "android_client_info": {
+          "package_name": "com.example.fininfocom_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20703314802-96brneppr1mrhepbn9d9th4ar0nv8jge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDra6saDVyI24J76DyotrxnjB46bGnHUcs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20703314802-96brneppr1mrhepbn9d9th4ar0nv8jge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
