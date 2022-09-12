@@ -1,3 +1,4 @@
+import 'package:fininfocom_assignment/src/features/enter_user.dart/user_enter_view.dart';
 import 'package:fininfocom_assignment/src/features/home/provider/provider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -13,12 +14,15 @@ class HomeView extends StatelessWidget {
       child: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.black,
-            title: const Text(
-              'Persons Datas',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 22,
-                fontWeight: FontWeight.w600,
+            title: GestureDetector(
+              onTap: () => Navigator.of(context).push(MaterialPageRoute(builder: (context) => const UserEnterView())),
+              child: const Text(
+                'Persons Datas',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
             ),
             actions: [

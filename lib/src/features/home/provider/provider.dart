@@ -14,6 +14,8 @@ class HomeProvider extends ChangeNotifier {
 
   bool error = false;
 
+
+
   void setLoading() {
     isLoading = true;
     networkError = false;
